@@ -1,0 +1,24 @@
+2021. május 17.
+1.	Készítsen szkriptet zh1.sh névvel, amely paraméterként két alkönyvtár nevét várja. A szkript az aktuális könyvtárban elõbb a két név közül az alfabetikusan elõrébb esõ névvel hozzon létre könyvtárat, majd abban hozza létre a másik könyvtárat. Mindkét könyvtár jogosultságait állítsa be úgy, hogy csak a felhasználónak legyen jogosultsága bármit tenni ezekkel. Ha ilyen nevû bejegyzés már szerepel az aktuális könyvtárban, akkor ezt a tényt írja ki.
+
+2.	Készítsen szkriptet zh2.sh névvel, amelynek három bemenõ paramétere van, az egyik egy egy pozitív páratlan egész szám 5-15 között, a második és harmadik paraméter pedig egy egy tetszõleges karakter. A program jelezzen hibát, ha elsõ paraméter nem a megadott intervallumból kap számot, illetve ha a második és harmadik paraméter nem csak egy karaktert. A futás eredményeképpen a következõ képernyõkép jelenjen meg:
+pl.: zh2.sh 5 o x
+oooo-
+ooo-x
+oo-xx
+o-xxx
+-xxxx
+
+3.	Készítsen szkriptet zh3.sh névvel, amely a billentyûzetrõl beolvas egy karaktert mindaddig, amíg q betût nem olvas be. A beolvasott karakternek megfelelõen, ha az 1-5 közötti a karakter, akkor írja ki az annak megfelelõ érdemjegyet. A program a legvégén írja ki, hogy hány 5-ös érdejegyet adtunk meg.
+
+4.	Készítsen szkriptet zh4.sh névvel, amely valuta átváltást számít ki. A programnak négy bemenõ paramétere van a következõ sorrendben: átváltandó összeg pénzneme, a cél pénznem, átváltandó összeg, atváltási árfolyam. A program a megadott paraméteke alapján kiszámolja az átváltást és megjeleníti az eredményt. A program kezelje a kevés vagy nem megfelelõ paramétereket. 
+pl. atvalt.sh ft eu 640 320
+640 ft = 2 eu 
+
+
+5.	Készítsen szkriptet zhfeladat5.sh névvel, amely feldolgozza a kosarlabda.txt állományt, és választ ad a következõ kérdésekre:
+a.	Hány mérkõzést tartalmaz az állomány? 
+b.	Listázzuk ki a Warriors mérkõzéseit! A megjelenítési formátum:
+csapat1 pont1 - csapat2 pont2
+c.	Jelenítsük meg, hogy mekkora volt a legnagyobb különbségû mérközés!
+d.	Mennyi volt a Raptors otthoni mérkõzésein elért átlagpontszáma? 

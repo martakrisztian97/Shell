@@ -1,0 +1,22 @@
+2021. május 27.
+1.	Készítsen szkriptet zh1.sh névvel, amely paraméterként egy alkönyvtár és egy állomány nevét várja. A szkript az aktuális könyvtárban hozza létre a könyvtárat, majd abban hozza létre a megadott állományt a "Vizsgafeladat megoldása" tartalommal. Az állomány jogosultságait állítsa be úgy, hogy a felhasználónak ne legyen semmilyen, a többieknek pedig csak olvasási jogosultsága legyen. Ha ilyen nevû könyvtár és benne az állomány már létezik az aktuális könyvtárban, akkor ezt a tényt írja ki és lépjen ki a programból.
+
+2.	Készítsen szkriptet zh2.sh névvel, amelynek három bemenõ paramétere van, az elsõ és második egy egy pozitív egész szám 1-9 között, a harmadik paraméter pedig egy egy tetszõleges karakter. A program jelezzen hibát és lépjen ki a programból, ha az elsõ két paraméter nem a megadott intervallumból kap számot, illetve ha a harmadik paraméter nem csak egy karaktert. A futás eredményeképpen a következõ képernyõkép jelenjen meg:
+pl.: zh2.sh 5 7 x
+ooooooo
+xxxxxxx
+ooooooo
+xxxxxxx
+ooooooo
+
+3.	Készítsen szkriptet zh3.sh névvel, amely a billentyûzetrõl beolvas egy karaktert mindaddig, amíg q betût nem olvas be. A program írjon ki a beolvasott karakterbõl annyit a következõ sorba, ahanyadikként beolvasta a karaktert. 
+
+4.	Készítsen szkriptet zhfeladat4.sh névvel, amely a paraméterként megadott bináris számot átalakítja decimális számmá. A program jelezze, ha a parméterként kapott szám nem bináris szám, és fejezze be a mûködését. 
+
+
+5.	Készítsen szkriptet zh5.sh névvel, amely feldolgozza a kosarlabda.txt állományt, és választ ad a következõ kérdésekre:
+a.	Hány mérkõzést játszot a Hawks? 
+b.	Listázzuk ki azokat a mérkõzéseket a következõ formátumban, ahol a hazai csapat gyõzött:
+csapat1 pont1 : pont2 csapat2 
+c.	Jelenítsük meg, hogy összesen hány pontot dobott a Raptors!
+d.	Mennyi volt az átlagos pontkülönbség a meccseken? 
